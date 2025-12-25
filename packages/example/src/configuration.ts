@@ -1,9 +1,9 @@
-import { Configuration, IMidwayContainer } from '@midwayjs/core';
+import { Configuration } from '@midwayjs/core';
 
 @Configuration({
   namespace: 'example',
   importConfigs: [{ default: {} }],
 })
 export class ExampleConfiguration {
-  public async onReady(container: IMidwayContainer) {}
+  public async onReady() {}
 }

@@ -1,6 +1,6 @@
 {
-  "name": "@midwayjs/example",
-  "description": "midway example component",
+  "name": "@fonds-midway/example",
+  "description": "fonds midway example component",
   "version": "1.0.0",
   "main": "dist/index.js",
   "typings": "index.d.ts",

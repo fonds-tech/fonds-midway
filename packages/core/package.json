@@ -1,0 +1,47 @@
+{
+  "name": "@fonds-midway/core",
+  "description": "fonds midway core component",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "typings": "index.d.ts",
+  "files": [
+    "dist/**/*.js",
+    "dist/**/*.d.ts",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "node --require=ts-node/register ../../node_modules/jest/bin/jest.js",
+    "cov": "node --require=ts-node/register ../../node_modules/.bin/jest --runInBand --coverage --forceExit"
+  },
+  "keywords": [
+    "midway",
+    "core"
+  ],
+  "engines": {
+    "node": ">=12"
+  },
+  "author": "Nawbc",
+  "license": "MIT",
+  "dependencies": {
+    "@midwayjs/core": "^3.20.11",
+    "@midwayjs/koa": "^3.20.13",
+    "@midwayjs/logger": "^4.0.1",
+    "@midwayjs/typeorm": "^3.20.11",
+    "@midwayjs/validate": "^3.20.13",
+    "@midwayjs/cache-manager": "^3.20.11",
+    "class-transformer": "^0.5.1",
+    "commander": "^14.0.1",
+    "dayjs": "^1.11.18",
+    "glob": "^11.0.3",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "md5": "^2.3.0",
+    "pg": "^8.16.3",
+    "typeorm": "^0.3.27",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@midwayjs/mock": "^3.20.19"
+  }
+}
