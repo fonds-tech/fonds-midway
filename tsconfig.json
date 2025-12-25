@@ -1,0 +1,18 @@
+{
+  "extends": "./node_modules/mwts/tsconfig-midway.json",
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "esnext",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "strict": false,
+    "noImplicitReturns": false,
+    "noImplicitThis": false,
+    "noUnusedLocals": true,
+    "noEmitOnError": false,
+    "stripInternal": true,
+    "isolatedModules": true,
+    "skipLibCheck": true
+  },
+  "exclude": ["dist", "node_modules", "test", "site"]
+}
